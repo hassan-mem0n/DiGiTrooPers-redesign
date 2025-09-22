@@ -2570,6 +2570,12 @@ section:has(.rounded-section) {
 	position: relative;
 	width: 75px;
 }
+.service-icon i {
+	color: #cb0707;
+}
+.service-item:hover i{
+	color: #ffffff;
+}
 
 .service-item .service-icon .main-icon {
 	transition: all 0.3s ease-in-out;
@@ -2857,6 +2863,9 @@ section:has(.rounded-section) {
 	padding: 25px 30px;
 	font-size: 22px;
 	line-height: 32px;
+}
+.service-content ul li{
+	list-style: none;
 }
 
 @media (max-width: 1399px) {
